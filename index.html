@@ -1,1 +1,56 @@
 index.html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valm resell · Tienda online</title>
+  <meta name="description" content="Valm resell: gran variedad de productos de calidad para todos los gustos.">
+  <meta name="theme-color" content="#0b1f3a">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <a href="index.html" class="logo">Valm<span>resell</span></a>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="productos.html">Productos</a>
+    <a href="carrito.html">Carrito (<span id="cart-count">0</span>)</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <h1>Variedad para todos los gustos</h1>
+    <p>Productos de buena calidad, elegidos con cuidado y a buen precio.</p>
+    <a href="productos.html" class="btn">Ver productos</a>
+  </section>
+
+  <section class="section">
+    <h2>Categorías</h2>
+    <div class="grid cats">
+      <a href="productos.html" class="cat">Tecnología</a>
+      <a href="productos.html" class="cat">Moda</a>
+      <a href="productos.html" class="cat">Hogar</a>
+      <a href="productos.html" class="cat">Otros</a>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Por qué Valm resell</h2>
+    <div class="grid perks">
+      <div class="perk"><strong>Calidad</strong><p>Productos revisados antes de venderse.</p></div>
+      <div class="perk"><strong>Variedad</strong><p>Algo para cada gusto y presupuesto.</p></div>
+      <div class="perk"><strong>Pago seguro</strong><p>Pagos protegidos con Stripe.</p></div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>© 2026 Valm resell · Todos los derechos reservados</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
